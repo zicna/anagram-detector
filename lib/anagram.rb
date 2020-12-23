@@ -4,7 +4,6 @@
 class Anagram
     def initialize(word)
         @word = word
-        
     end
 
     attr_accessor :word
@@ -18,13 +17,12 @@ class Anagram
             end 
         end
         return anagram_list
-        # puts @anagram_list
     end
 end
 
-diaper = Anagram.new('diaper')
-puts diaper.word
-puts diaper.match(["helooo", "perdia"])
+# diaper = Anagram.new('diaper')
+# puts diaper.word
+# puts diaper.match(["helooo", "perdia"])
 
 # hello world zombies pants dipper
 
